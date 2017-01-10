@@ -1,6 +1,6 @@
 {
   "name": "entrokitty",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Littering your box with files that are all too similar? Add entrokitty to tell them apart.",
   "main": "index.js",
   "bin": "cli.js",
