@@ -4,19 +4,30 @@ It gives you random cat names so you can tell files apart, it's much easier than
 
 ## CLI Usage
 
+### Installation
+
 ```
 npm install -g entrokitty
 ```
 
-Now just type `entrokitty` to get a random cat name.
+### Usage
 
+`entrokitty [space replacement]`
+
+```
+$ entrokitty
+Scratch Adams
+$ entrokitty -
+Theo-de-Caadt
+```
 
 ## Node Usage
 
 ```javascript
 var entrokitty = require('entrokitty');
 
-console.log(entrokitty()); // Mew Kabakoff or one of many other cat names.
+console.log(entrokitty()); // Mew Kabakoff
+console.log(entrokitty('-')); // Eric-Meower
 ```
 
 # Contributing

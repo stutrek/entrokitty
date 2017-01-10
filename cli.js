@@ -2,4 +2,4 @@
 
 var entrokitty = require('./index');
 
-process.stdout.write(entrokitty() + '\n');
+process.stdout.write(entrokitty(process.argv[2]) + '\n');
